@@ -1,0 +1,170 @@
+/*
+        <!-- Rating state end -->
+
+        <!-- Thank you state start -->
+
+        You selected <!-- Add rating here --> out of 5
+
+        Thank you!
+
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+
+        <!-- Thank you state end -->
+
+    <div id="container-geral">
+    <div class="thankyou-image">
+      <img src="images/illustration-thank-you.svg" alt="received feedback" />
+    </div>
+    <div class="user-selection">You selected 4 out of 5</div>
+    <h1>Thank you!</h1>
+    <p>
+      We appreciate you taking the time to give a rating. If you ever need
+      more support, don’t hesitate to get in touch!
+    </p>
+  </div>
+
+
+*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: black;
+    color: papayawhip;
+    max-width: 1440px;
+    min-width: 320px;
+    max-height: auto;
+    min-height: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#geral{
+ 
+  width: 50%;
+  min-width: 420px;
+  max-height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10% auto;
+}
+#container-geral{
+    margin:  auto;
+    background-color: rgb(30, 37, 47);
+    border-radius: 50px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#star-container{
+    background-color: rgb(37, 48, 54);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+   margin: 30px 0 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    align-self: flex-start;
+}
+h1{
+    color: #f2f7fa;
+    margin: 20px 0 15px 30px;
+    font-size: 28px;
+    font-weight: 500;
+}
+p{
+
+    margin: 20px 0 15px 30px;
+    color: rgb(105, 112, 122);
+    font-size: 15px;
+    font-weight: 200;
+    text-align: justify, left;
+    line-height: 27px;
+    
+}
+#numeros button{
+    color: #848d96;
+    background-color: #262f38;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;    
+    margin-left: 15px;
+    cursor: pointer;
+   
+}
+#numeros button:hover{
+    background-color: #7c8898;
+    color: rgb(242, 247, 250);
+
+}
+
+#submit-btn button{
+    color:#f2f7fa;
+    background-color: #fc7613;
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;    
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+#submit-btn button:hover{
+    background-color: rgb(242, 247, 250);
+    color: #fc7613;
+}
+/* pagina alternativa */
+
+#geral2{
+ 
+    width: 50%;
+    min-width: 420px;
+    max-height: 700px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin: 10% auto;
+  }
+
+
+.container-alternativo{
+    
+    margin: auto;
+    background-color: rgb(30, 37, 47);
+    border-radius: 50px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px ;
+}
+
+.nota-selecionada{
+   
+    width: 80%;
+    height: 40px;
+    border-radius: 30px;
+    color: #fc7613;
+    background-color: #262f38;
+    text-align: center;
+    padding-top: 15px;
+}
+.nota-selecionada h4{
+    font-weight: 200    ;
+}
+
+.agradecimento{
+    text-align: center;
+}
